@@ -7,7 +7,7 @@ export function isPlaceholder(s: string) {
 export const SITE = {
   name: 'Felmon Talks Canada',
   firstName: 'Felmon',
-  role: 'Canadian news and commentary channel',
+  role: 'YouTube channel',
   show: 'Felmon Talks Canada',
   networkInitials: 'FTC',
   networkName: 'Felmon Talks Canada',
@@ -15,46 +15,44 @@ export const SITE = {
   channelUrl: 'https://www.youtube.com/@FelmonTalksCanada',
   email: '',
   location: 'Canada',
-  joinedDate: 'March 29, 2026',
-  subscriberCount: '233 subscribers',
-  totalViews: '55,139 views',
+  joinedDate: 'Joined Mar 29, 2026',
   totalVideos: '19 videos',
   avatarImage: '/felmon-avatar.png',
   heroImage: '/felmon-headshot.png',
 
   tagline:
-    'Sharp YouTube commentary on Canadian politics, trade pressure, fuel costs, housing stress, retail shutdowns, and the economic stories dominating the national conversation.',
+    'Public YouTube channel data with the latest visible upload published on May 2, 2026.',
 
-  heroEyebrow: 'Canadian commentary · public affairs',
-  heroStatement: 'Canada. Economy. Commentary.',
+  heroEyebrow: 'YouTube channel · Canada',
+  heroStatement: 'Canada. YouTube. Updates.',
 
-  missionEyebrow: 'The Channel',
-  missionHeadline: 'Canada. Economy. Commentary.',
+  missionEyebrow: 'Channel Data',
+  missionHeadline: 'Canada. YouTube. Updates.',
   missionBody:
-    'Fast-moving coverage of Canada\'s political and economic flashpoints, built around the stories viewers are reacting to right now.',
+    'The public channel page shows a channel titled Felmon Talks Canada with visible uploads focused on recent Canada-related headlines.',
   missionBlurb:
-    'From trade tension and cost-of-living pressure to housing losses, fuel prices, bankruptcies, and retail collapse, the channel tracks the stories shaping how Canadians talk about the country.',
+    'Latest visible uploads include U.S.-Mexico trade talks, Frank And Oak store closures, oil-company warnings, Canada GDP contraction, and gas prices reaching $1.82 per litre.',
 
   aboutShort:
-    'Felmon Talks Canada is a YouTube channel covering the pressure points driving Canadian public debate, with a strong focus on politics, affordability, trade, housing, energy, and retail disruption.',
+    'Felmon Talks Canada is a public YouTube channel page with 19 visible videos as of May 2, 2026.',
 
   aboutLong: [
-    'Felmon Talks Canada is a fast-growing YouTube commentary channel centered on the economic and political stories dominating headlines across Canada. Based on the channel\'s public uploads, the coverage consistently returns to trade pressure, affordability, housing losses, fuel costs, food prices, retail shutdowns, and the public response to major policy decisions.',
-    'The channel launched on March 29, 2026 and has already built a catalog of 19 public videos and more than 55,000 total views. Its upload style is direct and rapid-response: short-form analysis videos with urgent headlines, frequent commentary on breaking developments, and a clear focus on stories that affect everyday Canadian households.',
-    'Because the public channel page does not currently list a written bio, outside social accounts, or a direct contact email, this site focuses on what is visible today: the channel\'s name, public metrics, recent episodes, and the themes repeated across its video archive.',
+    'Felmon Talks Canada is the title shown on the public YouTube channel page at https://www.youtube.com/@FelmonTalksCanada.',
+    'The same public page shows a join date of March 29, 2026 and 19 public videos.',
+    'The public channel description is blank, and there are no public external links or contact email listed on the channel page.',
   ],
 
   beats: [
-    'Canadian Politics',
-    'Trade and Tariffs',
-    'Cost of Living',
-    'Housing and Real Estate',
+    'Trade Talks With Mexico',
+    'Frank And Oak Shutdown',
+    'Oil Company Warning',
+    'GDP Still Contracting',
   ],
 
   credentials: [
-    'YouTube channel launched March 29, 2026',
-    'Public archive: 19 videos and 55,139 views',
-    'Coverage inferred from public uploads: politics, trade, fuel, housing, food prices, and retail disruption',
+    'Joined Mar 29, 2026',
+    '19 public videos',
+    'No public bio, links, or email listed on channel page',
   ],
 
   social: {
@@ -77,14 +75,13 @@ type RawVideo = {
   title: string
   date: string
   publishedAgo: string
-  views: string
   length: string
 }
 
 function buildVideoSummary(video: RawVideo) {
   return [
-    `A Felmon Talks Canada episode focused on "${video.title}" and the kind of high-pressure national story the channel has been tracking across its archive.`,
-    `Published ${video.date} · ${video.publishedAgo} · ${video.views} · ${video.length}. Watch on YouTube for the full commentary and follow the channel for the latest Canada-focused uploads.`,
+    `Public YouTube listing: "${video.title}" appears on the Felmon Talks Canada channel page.`,
+    `Published ${video.date} / ${video.publishedAgo} / ${video.length}.`,
   ]
 }
 
@@ -94,62 +91,55 @@ const rawVideos: RawVideo[] = [
     title:
       'Carney UNDER FIRE After U.S. SCHEDULES Trade Talks With Mexico — Canada LEFT With NO Date!',
     date: 'May 2, 2026',
-    publishedAgo: '54 minutes ago',
-    views: '3 views',
+    publishedAgo: '15 hours ago',
     length: '8:48',
   },
   {
     id: 'aP634Yf0sFA',
     title:
       'Canada EXPLODES As Frank And Oak SHUTS DOWN All Stores — Another Major Canadian Retailer GONE!',
-    date: 'Apr 25, 2026',
-    publishedAgo: '7 days ago',
-    views: '19,567 views',
+    date: 'Apr 24, 2026',
+    publishedAgo: '8 days ago',
     length: '9:35',
   },
   {
     id: 'iEYScWznm3o',
     title:
       "Canada FREAKS OUT After Carney THREATENS Oil Companies — Warns He's WATCHING If They Pocket The Fuel",
-    date: 'Apr 24, 2026',
-    publishedAgo: '8 days ago',
-    views: '20,607 views',
+    date: 'Apr 23, 2026',
+    publishedAgo: '9 days ago',
     length: '10:26',
   },
   {
     id: 'OoVUzhjazfs',
     title:
       'Canada ERUPTS As Carney Prepares Economic Update — One Year In And GDP Is STILL CONTRACTING!',
-    date: 'Apr 23, 2026',
-    publishedAgo: '9 days ago',
-    views: '406 views',
+    date: 'Apr 22, 2026',
+    publishedAgo: '10 days ago',
     length: '10:01',
   },
   {
     id: 'UUy8RSTzhmc',
     title:
       "Canada EXPLODES After Trump THREATENS 100% Tariffs On ALL Canadian Goods — Carney's China Deal FAILS",
-    date: 'Apr 22, 2026',
-    publishedAgo: '10 days ago',
-    views: '404 views',
+    date: 'Apr 21, 2026',
+    publishedAgo: '11 days ago',
     length: '9:17',
   },
   {
     id: '0BTTqi4W0uE',
     title:
       'Canada IN SHOCK As Gas Prices HIT $1.82 Per Litre — Middle East Crisis CRUSHING Canadian Families',
-    date: 'Apr 21, 2026',
-    publishedAgo: '11 days ago',
-    views: '1,115 views',
+    date: 'Apr 20, 2026',
+    publishedAgo: '12 days ago',
     length: '9:52',
   },
   {
     id: 't6NBdiu65gw',
     title:
       "Canada FREAKS OUT After Carney SUSPENDS Fuel Tax — But Critics Say It's TOO LITTLE TOO LATE!",
-    date: 'Apr 20, 2026',
-    publishedAgo: '12 days ago',
-    views: '2,275 views',
+    date: 'Apr 19, 2026',
+    publishedAgo: '13 days ago',
     length: '9:29',
   },
   {
@@ -158,7 +148,6 @@ const rawVideos: RawVideo[] = [
       'Canada IN SHOCK As Food Bank SHIPMENT Gets STRUCK Near Iran! CARNEY LOSES IT!',
     date: 'Apr 18, 2026',
     publishedAgo: '2 weeks ago',
-    views: '952 views',
     length: '8:20',
   },
   {
@@ -167,7 +156,6 @@ const rawVideos: RawVideo[] = [
       'Canada IN DISBELIEF As Toronto Home Sells At $760,000 LOSS! CARNEY FREAKS OUT!',
     date: 'Apr 18, 2026',
     publishedAgo: '2 weeks ago',
-    views: '3,104 views',
     length: '9:15',
   },
   {
@@ -176,7 +164,6 @@ const rawVideos: RawVideo[] = [
       'Canada In CHAOS As Toronto Condo Market COLLAPSED! Only 85 Units Sold — The WORST Since 1991!',
     date: 'Apr 18, 2026',
     publishedAgo: '2 weeks ago',
-    views: '503 views',
     length: '9:21',
   },
   {
@@ -185,7 +172,6 @@ const rawVideos: RawVideo[] = [
       'Canada EXPLODES After WORST Energy Crisis IN HISTORY Hits — Shell CEO WARNS Fuel Will RUN OUT!',
     date: 'Apr 18, 2026',
     publishedAgo: '2 weeks ago',
-    views: '336 views',
     length: '9:16',
   },
   {
@@ -194,16 +180,14 @@ const rawVideos: RawVideo[] = [
       'Canada ERUPTS As Carney FIRES 40,000 Government Workers - Carney EXPLODES!',
     date: 'Apr 18, 2026',
     publishedAgo: '2 weeks ago',
-    views: '174 views',
     length: '11:03',
   },
   {
     id: 'DI65hOi6qE0',
     title:
       'Canada STUNNED As 45,000 Businesses CLOSE Every Single Month — CFIB Calls It The Worst CRISIS!',
-    date: 'Apr 18, 2026',
-    publishedAgo: '2 weeks ago',
-    views: '275 views',
+    date: 'Apr 11, 2026',
+    publishedAgo: '3 weeks ago',
     length: '10:55',
   },
   {
@@ -211,7 +195,6 @@ const rawVideos: RawVideo[] = [
     title: 'Canada ERUPTS As 140,000 Canadians Go BANKRUPT!',
     date: 'Apr 11, 2026',
     publishedAgo: '3 weeks ago',
-    views: '4,050 views',
     length: '10:53',
   },
   {
@@ -220,7 +203,6 @@ const rawVideos: RawVideo[] = [
       'Canada ERUPTS As 2.2 MILLION Canadians Line Up At Food Banks EVERY MONTH! CARNEY PANICS!',
     date: 'Apr 11, 2026',
     publishedAgo: '3 weeks ago',
-    views: '169 views',
     length: '9:21',
   },
   {
@@ -228,7 +210,6 @@ const rawVideos: RawVideo[] = [
     title: 'Canada BLOWN AWAY As Entire College System COLLAPSES',
     date: 'Apr 11, 2026',
     publishedAgo: '3 weeks ago',
-    views: '378 views',
     length: '9:26',
   },
   {
@@ -237,7 +218,6 @@ const rawVideos: RawVideo[] = [
       'Canada ERUPTS As Food Prices SKYROCKET 30% Since 2019 — Families NOW Spending $17,000 A Year to eat!',
     date: 'Apr 11, 2026',
     publishedAgo: '3 weeks ago',
-    views: '400 views',
     length: '12:05',
   },
   {
@@ -246,7 +226,6 @@ const rawVideos: RawVideo[] = [
       'Canada FREAKS OUT After Carney RUNS $31 BILLION Deficit In 10 Months — National Debt 1.5 TRILLION',
     date: 'Apr 11, 2026',
     publishedAgo: '3 weeks ago',
-    views: '776 views',
     length: '12:00',
   },
   {
@@ -255,7 +234,6 @@ const rawVideos: RawVideo[] = [
       'Canada SHOCKED As U.S. & Mexico LAUNCH Secret Trade Talks — Carney LEFT OUT In The Cold!',
     date: 'Apr 11, 2026',
     publishedAgo: '3 weeks ago',
-    views: '211 views',
     length: '9:51',
   },
 ]

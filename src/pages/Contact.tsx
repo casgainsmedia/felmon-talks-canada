@@ -55,8 +55,6 @@ export default function Contact() {
             <p className="eyebrow mb-4">Snapshot</p>
             <ul className="space-y-2 text-paper/80 font-sans">
               <li>{SITE.joinedDate}</li>
-              <li>{SITE.subscriberCount}</li>
-              <li>{SITE.totalViews}</li>
               <li>{SITE.totalVideos}</li>
             </ul>
           </div>

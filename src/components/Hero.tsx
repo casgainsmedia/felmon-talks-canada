@@ -16,11 +16,7 @@ export default function Hero() {
       />
 
       <div className="relative container-edge flex flex-col min-h-[100svh] pt-[100px] pb-14">
-        <div className="flex items-center justify-between pb-8 border-b border-paper/10">
-          <span className="inline-flex items-center gap-2 bg-signal text-paper px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.18em] font-semibold">
-            <span className="w-1.5 h-1.5 bg-paper rounded-full animate-pulse" />
-            On Air · {new Date().getFullYear()}
-          </span>
+        <div className="flex items-center justify-end pb-8 border-b border-paper/10">
           <span className="hidden sm:flex items-center gap-5 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/70">
             <span>{SITE.location}</span>
             <span className="hidden md:inline text-paper/30">|</span>
@@ -69,7 +65,7 @@ export default function Hero() {
               <div className="relative aspect-[4/5] w-full max-w-md mx-auto lg:mx-0 lg:ml-auto overflow-hidden bg-steel">
                 <img
                   src={SITE.heroImage}
-                  alt={`${SITE.name} — ${SITE.role}`}
+                  alt={`${SITE.name} - ${SITE.role}`}
                   className="w-full h-full object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/30 to-transparent" />
@@ -77,7 +73,7 @@ export default function Hero() {
                   <div className="flex items-end justify-between gap-4">
                     <div>
                       <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-signal mb-1">
-                        YouTube · Commentary
+                        YouTube / Commentary
                       </p>
                       <p className="font-display font-semibold text-2xl md:text-3xl tracking-tight text-paper leading-tight">
                         {SITE.name}

@@ -21,7 +21,7 @@ export default function ContactForm() {
       <div>
         <p className="eyebrow block mb-1">03 / Public Snapshot</p>
         <p className="w-full border-0 border-b border-paper/20 py-4 text-paper text-base md:text-lg font-medium tracking-tight font-sans">
-          Joined {SITE.joinedDate} / {SITE.subscriberCount} / {SITE.totalViews} / {SITE.totalVideos}
+          {SITE.joinedDate} / {SITE.totalVideos}
         </p>
       </div>
 

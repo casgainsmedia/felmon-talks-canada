@@ -72,7 +72,7 @@ export default function Home() {
               />
               <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-[0.2em] text-paper/60 leading-relaxed">
                 {SITE.name}<br />
-                <span className="text-signal">{SITE.subscriberCount} / {SITE.totalVideos}</span>
+                <span className="text-signal">{SITE.joinedDate} / {SITE.totalVideos}</span>
               </figcaption>
             </figure>
 
