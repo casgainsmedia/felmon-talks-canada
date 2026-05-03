@@ -5,54 +5,54 @@ export function isPlaceholder(s: string) {
 }
 
 export const SITE = {
-  name: 'Felmon Talks Canada',
+  name: 'Felmon Nicholas',
   firstName: 'Felmon',
-  role: 'YouTube channel',
+  role: 'Political Analyst & Commentator',
   show: 'Felmon Talks Canada',
   networkInitials: 'FTC',
   networkName: 'Felmon Talks Canada',
   channelHandle: '@FelmonTalksCanada',
   channelUrl: 'https://www.youtube.com/@FelmonTalksCanada',
-  email: '',
-  location: 'Canada',
+  email: 'felmontalks@gmail.com',
+  location: 'Toronto, Ontario',
   joinedDate: 'Joined Mar 29, 2026',
   totalVideos: '19 videos',
   avatarImage: '/felmon-avatar.png',
   heroImage: '/felmon-headshot.png',
 
   tagline:
-    'Public YouTube channel data with the latest visible upload published on May 2, 2026.',
+    'Political analysis and commentary focused on the forces shaping Canada, from affordability and housing to trade, institutions, and national leadership.',
 
-  heroEyebrow: 'YouTube channel · Canada',
-  heroStatement: 'Canada. YouTube. Updates.',
+  heroEyebrow: 'Political Analyst & Commentator · Toronto, Ontario',
+  heroStatement: 'Canada. Politics. Commentary.',
 
-  missionEyebrow: 'Channel Data',
-  missionHeadline: 'Canada. YouTube. Updates.',
+  missionEyebrow: 'Canadian News',
+  missionHeadline: 'Canada. Politics. Commentary.',
   missionBody:
-    'The public channel page shows a channel titled Felmon Talks Canada with visible uploads focused on recent Canada-related headlines.',
+    'Felmon Nicholas is a Toronto-based political analyst and commentator covering the biggest stories shaping Canada, with reporting and perspective built for viewers who want more than a headline.',
   missionBlurb:
-    'Latest visible uploads include U.S.-Mexico trade talks, Frank And Oak store closures, oil-company warnings, Canada GDP contraction, and gas prices reaching $1.82 per litre.',
+    'Felmon Talks Canada breaks down Canadian politics, economic stress, housing, trade pressure, energy, and the decisions inside government that shape everyday life across the country.',
 
   aboutShort:
-    'Felmon Talks Canada is a public YouTube channel page with 19 visible videos as of May 2, 2026.',
+    'Felmon Nicholas is the host of Felmon Talks Canada, a Toronto-based YouTube platform focused on Canadian politics, policy, and public-interest commentary.',
 
   aboutLong: [
-    'Felmon Talks Canada is the title shown on the public YouTube channel page at https://www.youtube.com/@FelmonTalksCanada.',
-    'The same public page shows a join date of March 29, 2026 and 19 public videos.',
-    'The public channel description is blank, and there are no public external links or contact email listed on the channel page.',
+    "I'm Felmon Nicholas — a political analyst and commentator based in Toronto, Ontario, and the host of Felmon Talks Canada. I cover the Canadian stories that shape public life: economic pressure, political power, institutional decisions, and the national debates that too often get flattened into talking points.",
+    'The show publishes long-form commentary and rapid-response analysis on YouTube, following the facts behind the headlines and translating complex political and economic developments into clear, direct reporting for a broad Canadian audience.',
+    'Felmon Talks Canada is built around Canadian news first. From affordability and housing to trade, energy, federal leadership, and provincial flashpoints, the goal is to connect policy decisions to their real consequences for people across the country.',
   ],
 
   beats: [
-    'Trade Talks With Mexico',
-    'Frank And Oak Shutdown',
-    'Oil Company Warning',
-    'GDP Still Contracting',
+    'Canadian Politics',
+    'Housing & Affordability',
+    'Trade & The Economy',
+    'Energy & Public Policy',
   ],
 
   credentials: [
-    'Joined Mar 29, 2026',
-    '19 public videos',
-    'No public bio, links, or email listed on channel page',
+    'Host, Felmon Talks Canada · YouTube',
+    'Toronto-based Canadian political commentary',
+    '19 public videos since launch in March 2026',
   ],
 
   social: {

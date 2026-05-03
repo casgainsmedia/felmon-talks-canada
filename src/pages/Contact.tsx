@@ -23,10 +23,10 @@ export default function Contact() {
           </div>
           <div className="md:col-span-9">
             <h1 className="display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[88px] leading-[1.05] tracking-[-0.025em] text-paper max-w-5xl font-display">
-              Public channel details, current metrics, and the main destination for following new uploads from {SITE.show}.
+              Send a note about interviews, stories, collaborations, or Canadian news conversations tied to {SITE.show}.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/60 max-w-xl">
-              No public email is listed on the channel page today
+              Direct contact and channel links for Felmon Talks Canada
             </p>
           </div>
         </div>
@@ -54,6 +54,7 @@ export default function Contact() {
           <div>
             <p className="eyebrow mb-4">Snapshot</p>
             <ul className="space-y-2 text-paper/80 font-sans">
+              <li>{SITE.email}</li>
               <li>{SITE.joinedDate}</li>
               <li>{SITE.totalVideos}</li>
             </ul>
@@ -76,7 +77,7 @@ export default function Contact() {
           <div className="rule pt-10">
             <p className="eyebrow mb-3">Note</p>
             <p className="text-paper/70 text-sm leading-relaxed font-sans">
-              This version of the site reflects the channel's currently visible public information. Bio and contact language are based on the public channel page and uploaded video archive.
+              Felmon Talks Canada is focused on Canadian politics, economic pressure, public policy, and the major national stories shaping the conversation across the country.
             </p>
           </div>
         </aside>

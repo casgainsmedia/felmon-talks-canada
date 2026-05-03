@@ -21,7 +21,7 @@ export default function Footer() {
         <p className="eyebrow text-paper/50 mb-6">Watch the channel</p>
         <a href={SITE.channelUrl} target="_blank" rel="noreferrer" className="group block max-w-6xl">
           <h2 className="display font-bold text-4xl sm:text-5xl md:text-7xl lg:text-[96px] leading-[1.0] tracking-[-0.02em] text-paper font-display">
-            Follow <span className="italic font-normal underline decoration-paper/30 underline-offset-[0.12em] group-hover:text-signal group-hover:decoration-signal transition-colors">{SITE.show}</span> for the latest Canada-focused uploads.
+            Follow <span className="italic font-normal underline decoration-paper/30 underline-offset-[0.12em] group-hover:text-signal group-hover:decoration-signal transition-colors">{SITE.show}</span> for sharp Canadian news analysis and commentary.
           </h2>
           <div className="mt-8 inline-flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/70 group-hover:text-signal transition-colors">
             <span>{SITE.channelHandle}</span>

@@ -34,8 +34,8 @@ export default function Home() {
               <p className="font-sans text-sm uppercase tracking-[0.18em] text-signal font-semibold mb-4">
                 Latest Episodes
               </p>
-              <h2 className="display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[80px] leading-[1.05] tracking-[-0.025em] text-paper max-w-5xl font-display">
-                Recent uploads from a Canada-focused commentary channel covering trade, affordability, housing, fuel, and public policy pressure points.
+              <h2 className="display font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-[1.08] tracking-[-0.02em] text-paper max-w-4xl font-display">
+                Recent uploads from Felmon Talks Canada covering Canadian politics, affordability, housing, trade, and the pressure points shaping life across the country.
               </h2>
             </div>
             <Link

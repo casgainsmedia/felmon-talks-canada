@@ -12,7 +12,7 @@ export default function Work() {
           </div>
           <div className="md:col-span-9">
             <h1 className="display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[88px] leading-[1.05] tracking-[-0.025em] text-paper max-w-5xl font-display">
-              Every public upload from {SITE.show}, arranged in the current archive order and ready to watch.
+              Every public upload from {SITE.show}, built around the Canadian stories driving political and economic debate right now.
             </h1>
             <p className="mt-6 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/60 max-w-xl">
               Click any thumbnail to play in place / use the summaries for quick context

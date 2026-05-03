@@ -7,7 +7,7 @@ export default function ContactForm() {
       <div>
         <p className="eyebrow block mb-1">01 / Public Contact</p>
         <p className="w-full border-0 border-b border-paper/20 py-4 text-paper text-lg md:text-xl font-medium tracking-tight font-sans">
-          No direct email is publicly listed on the YouTube channel page.
+          {SITE.email}
         </p>
       </div>
 
@@ -36,7 +36,7 @@ export default function ContactForm() {
       </a>
 
       <p className="text-xs text-paper/50 pt-2 font-mono uppercase tracking-[0.15em]">
-        Public information only / no email listed
+        Interviews, story tips, and collaboration inquiries welcome
       </p>
     </div>
   )

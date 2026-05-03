@@ -18,7 +18,7 @@ export default function About() {
           </div>
           <div className="md:col-span-9">
             <h1 className="display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-[88px] leading-[1.05] tracking-[-0.025em] text-paper max-w-5xl font-display">
-              {SITE.name} - a {SITE.role.toLowerCase()} focused on the stories driving Canada's economic and political conversation.
+              {SITE.name} — a {SITE.role.toLowerCase()} bringing Canadian politics, economic pressure, and public policy to the front lines of digital media.
             </h1>
             <p className="mt-8 font-mono text-[11px] uppercase tracking-[0.2em] text-paper/60">
               {SITE.role} / {SITE.location}

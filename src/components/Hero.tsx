@@ -32,13 +32,15 @@ export default function Hero() {
 
             <h1 className="display font-bold text-[44px] sm:text-[64px] md:text-[80px] lg:text-[96px] xl:text-[112px] leading-[0.95] tracking-[-0.025em] text-paper font-display">
               Canada.<br />
-              <span className="italic font-normal text-signal">Economy.</span><br />
+              <span className="italic font-normal text-signal">Politics.</span><br />
               Commentary.
             </h1>
 
-            <p className="mt-8 md:mt-10 text-base md:text-lg text-paper/85 leading-relaxed max-w-xl font-sans">
-              {SITE.tagline}
-            </p>
+            {SITE.tagline ? (
+              <p className="mt-8 md:mt-10 text-base md:text-lg text-paper/85 leading-relaxed max-w-xl font-sans">
+                {SITE.tagline}
+              </p>
+            ) : null}
 
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
